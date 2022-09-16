@@ -14,18 +14,18 @@
     <base target="_blank">
     <title>Chairo 导航 | ナビゲーション</title>
     <script src="./script.js"></script>
-    <!-- <script>
+    <script>
         readTextFile("./bg.json",function(text){bgset = JSON.parse(text);});
         numRandom = 16
         document.write("<style>:root {--bg-image: url(./image/bg/bg"+numRandom+".jpg);--bg-color:"+bgset[numRandom]["color"]+";--bg-size: 102%;--cover-height:"+bgset[numRandom]["height"]+";--cover-site:"+bgset[numRandom]["site"]+";}</style>")
-    </script> -->
-    <script>
+    </script>
+    <!-- <script>
         readTextFile("./content.json",function(text){bgset = JSON.parse(text);});
         Random1 = randomNum(0,14);
         Random2 = randomNum(1,2);
         console.log(bgset["data"][1]["colors"][2])
         document.write("<style>:root {--bg-image: url("+bgset['data'][Random1]['path']+");--bg-color:"+bgset["data"][Random1]["colors"][Random2]+";--bg-size: 102%;--cover-height:24%;--cover-site:-1%;}</style>")
-    </script>
+    </script> -->
 </head>
 
 <body onbeforeunload="return myFunction()">
