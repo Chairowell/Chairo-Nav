@@ -1,0 +1,51 @@
+{
+  "id": "2904180",
+  "name": "Chairo Website Project",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1445417",
+      "name": "telegram",
+      "font_class": "telegram",
+      "unicode": "e8db",
+      "unicode_decimal": 59611
+    },
+    {
+      "icon_id": "17522253",
+      "name": "bilibili-fill",
+      "font_class": "bilibili",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "702593",
+      "name": "gmail",
+      "font_class": "mail",
+      "unicode": "e89f",
+      "unicode_decimal": 59551
+    },
+    {
+      "icon_id": "1381385",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "10932499",
+      "name": "netease-cloud-music-line",
+      "font_class": "netease-cloud-music-line",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "17105100",
+      "name": "settings-4-fill",
+      "font_class": "setting",
+      "unicode": "e86f",
+      "unicode_decimal": 59503
+    }
+  ]
+}
