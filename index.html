@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chairo 导航|ナビゲーション 收录各种各样奇怪资源的导航(｡・`ω´･)">
+    <meta name="keywords" content="C站,番剧,ACG,动漫,弹幕,音乐,导航">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./favicon.png">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./style.css">
+    <base target="_blank">
+    <title>Chairo 导航 | ナビゲーション</title>
+    <script src="./script.js"></script>
+    <!-- <script>
+        readTextFile("./bg.json",function(text){bgset = JSON.parse(text);});
+        numRandom = 16
+        document.write("<style>:root {--bg-image: url(./image/bg/bg"+numRandom+".jpg);--bg-color:"+bgset[numRandom]["color"]+";--bg-size: 102%;--cover-height:"+bgset[numRandom]["height"]+";--cover-site:"+bgset[numRandom]["site"]+";}</style>")
+    </script> -->
+    <script>
+        readTextFile("./content.json",function(text){bgset = JSON.parse(text);});
+        Random1 = randomNum(0,14);
+        Random2 = randomNum(1,2);
+        console.log(bgset["data"][1]["colors"][2])
+        document.write("<style>:root {--bg-image: url("+bgset['data'][Random1]['path']+");--bg-color:"+bgset["data"][Random1]["colors"][Random2]+";--bg-size: 102%;--cover-height:24%;--cover-site:-1%;}</style>")
+    </script>
+</head>
+
+<body onbeforeunload="return myFunction()">
+    
+    <nav>
+        <a href="http://45.94.42.42:3312/vhost/?c=session&a=loginForm"><span class="iconfont icon-setting"></span></a>
+        <a class="dot"></a>
+        <a href="https://www.chairo.cc/base/index.html" class="active">实验室</a>
+        <a class="dot"></a>
+        <a href="https://www.chairo.cc">chairo 主站</a>
+        <a class="dot"></a>
+        <a href="https://dash.cloudflare.com">Cloudflare</a>
+        <a class="dot"></a>
+    </nav>
+
+    <div class="background">
+        <div id="startrack"></div>
+        <div class="cover"></div>
+    </div>
+    <div class="main">
+        <div class="ch intro">
+            <div class="container">
+                <div class="hello">
+                    <h1 id="slogan"></h1>
+                    <h3>chairo | 导航站</h3>
+                </div>
+            </div>
+        </div>
+        <div class="ch about">
+            <div class="container">
+                <h2 class="chtitle"><span>一个妄想改善二次元生态的网站(｡・`ω´･)</span></h2>
+                <div class="find ch">
+                    <div class="container links">
+                        <a href="https://afdian.net/@Chairo" target="_blank">
+                            <div class="item">
+                                <div class="bg" style="background-color:#af5cf3"></div>
+                                <div class="inner">
+                                    <span>爱发电</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://music.163.com/#/my/m/music/playlist?id=6846157420" target="_blank">
+                            <div class="item">
+                                <div class="bg" style="background-color:#f12d35"></div>
+                                <div class="inner">
+                                    <i class="iconfont icon-netease-cloud-music-line"></i>
+                                    <span>云音乐</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://space.bilibili.com/84378256?spm_id_from=333.1007.0.0" target="_blank">
+                            <div class="item">
+                                <div class="bg" style="background-color:#4271c9"></div>
+                                <div class="inner">
+                                    <i class="iconfont icon-bilibili"></i>
+                                    <span>bilibili</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://t.me/chairowell/" target="_blank">
+                            <div class="item">
+                                <div class="bg" style="background-color:#255696"></div>
+                                <div class="inner">
+                                    <i class="iconfont icon-telegram"></i>
+                                    <span>Telegram</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/chairowell" target="_blank">
+                            <div class="item">
+                                <div class="bg" style="background-color:#389df6"></div>
+                                <div class="inner">
+                                    <i class="iconfont icon-twitter"></i>
+                                    <span>Twitter</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="http://www.cilicili.cc" target="_blank">
+                            <div class="item">
+                                <div class="bg" style="background-color:#e06d6d"></div>
+                                <div class="inner">
+                                    <span>呲哩呲哩</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a onclick="alert('chairowell@gmail.com');">
+                            <div class="item">
+                                <div class="bg" style="background-color:#e7b256"></div>
+                                <div class="inner">
+                                    <i class="iconfont icon-mail"></i>
+                                    <span>Gmail</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://github.com/Chairowell" target="_blank">
+                            <div class="item">
+                                <div class="bg" style="background-color:#3b3b3b"></div>
+                                <div class="inner">
+                                    <i class="iconfont icon-github"></i>
+                                    <span>Github</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gate ch">
+                    <div class="container links">
+                        <h2 class="chtitle"></h2>
+                        <div class="clear">
+
+                            <script>
+                                readTextFile("./list.json", function (text) {
+                                    data = JSON.parse(text);
+                                });
+
+                                let obj = data;
+                                var urlnum = 0;
+                                for (i in obj) {
+                                    document.write("<h1>" + i + "</h1>");
+                                    for (o in obj[i]) {
+                                        document.write('<div class="url-box"><div class="url-test" id="'+obj[i][o]["name"]+'" onclick="pingURL(this,\''+obj[i][o]["url"]+'\')"><div class="url-B"></div>Test</div><a href="'+obj[i][o]["url"]+'" target="_blank"><div class="item"><div class="avatar"><img src="'+obj[i][o]["icon"]+'"></div><div class="inner"><h5>'+obj[i][o]["name"]+'</h5><p>'+obj[i][o]["explain"]+'</p></div></div></a></div>');
+                                        document.getElementsByClassName("url-test")[urlnum].click();
+                                        urlnum++;
+                                    }
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=0&t=n&d=o9YWHIWTDU0-LmCLCGhwJglbMhugBprq1efNvr1D_u0&co=ffffff&cmo=ffffff&cmn=ffffff'></script>
+</body>
+
+</html>
