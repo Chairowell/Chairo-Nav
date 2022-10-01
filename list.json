@@ -32,8 +32,8 @@
         "2": {"name": "AI Image Enlarger","url": "https://imglarger.com","icon": "./image/url/imglarger.com.png","explain": "AI图片放大"},
         "3": {"name": "BBDown-PACK","url": "https://github.com/Chairowell/BBDown-PACK","icon": "./image/url/github.com.png","explain": "便携增强B站视频下载器"},
         "4": {"name": "唧唧","url": "https://www.jijidown.com","icon": "./image/url/www.jijidown.com.png","explain": "bilibili视频|弹幕在线下载"},
-        "5": {"name": "唧唧","url": "https://www.jijidown.com","icon": "./image/url/www.jijidown.com.png","explain": "bilibili视频|弹幕在线下载"},
-        "6": {"name": "唧唧","url": "https://www.jijidown.com","icon": "./image/url/www.jijidown.com.png","explain": "bilibili视频|弹幕在线下载"}
+        "5": {"name": "","url": "","icon": "","explain": ""},
+        "6": {"name": "","url": "","icon": "","explain": ""}
     },
     "- 插画 & 本子 -": {
         "1": {"name": "Pixiv","url": "https://www.pixiv.net","icon": "./image/url/www.pixiv.net.png","explain": "最大的插画作品网站"},
@@ -54,8 +54,8 @@
         "2": {"name": "BeatStage","url": "https://www.beatstage.com","icon": "./image/url/www.beatstage.com.png","explain": "国内第一个开放式网页音游"},
         "3": {"name": "OSU!","url": "https://osu.ppy.sh","icon": "./image/url/osu.ppy.sh.png","explain": "osu!节奏跃然指上！"},
         "4": {"name": "MissEvan","url": "https://www.missevan.com","icon": "./image/url/www.missevan.com.png","explain": "有声轻小说，声优聚集地"},
-        "5": {"name": "MissEvan","url": "https://www.missevan.com","icon": "./image/url/www.missevan.com.png","explain": "有声轻小说，声优聚集地"},
-        "6": {"name": "MissEvan","url": "https://www.missevan.com","icon": "./image/url/www.missevan.com.png","explain": "有声轻小说，声优聚集地"}
+        "5": {"name": "","url": "","icon": "","explain": ""},
+        "6": {"name": "","url": "","icon": "","explain": ""}
     },
     "- 下载 -": {
         "1": {"name": "萌番组","url": "https://bangumi.moe","icon": "./image/url/nan.png","explain": "更新最快的番剧种子网站"},
@@ -97,8 +97,8 @@
         "8": {"name": "COS盒子","url": "https://www.coshezi.com","icon": "./image/url/www.coshezi.com.png","explain": "分享优质二次元写真资源"},
         "9": {"name": "Cos站","url": "https://www.cosz.com","icon": "./image/url/www.cosz.com.png","explain": "汇聚Cos文化的星球"},
         "10": {"name": "Bangumi 番组计划","url": "https://bgm.tv","icon": "./image/url/bgm.tv.png","explain": "发现与结识同好的ACG网络"},
-        "11": {"name": "Bangumi 番组计划","url": "https://bgm.tv","icon": "./image/url/bgm.tv.png","explain": "发现与结识同好的ACG网络"},
-        "12": {"name": "Bangumi 番组计划","url": "https://bgm.tv","icon": "./image/url/bgm.tv.png","explain": "发现与结识同好的ACG网络"}
+        "11": {"name": "","url": "","icon": "","explain": ""},
+        "12": {"name": "","url": "","icon": "","explain": ""}
     },
     "- 游戏 -":{
         "1": {"name": "2DFan","url": "https://galge.fun","icon": "./image/url/galge.fun.png","explain": "专注于提供日本游戏攻略资讯"},
