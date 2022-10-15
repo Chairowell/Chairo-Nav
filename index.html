@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chairo 导航|ナビゲーション 收录各种各样奇怪资源的导航(｡・`ω´･)">
+    <meta name="keywords" content="C站,番剧,ACG,动漫,弹幕,音乐,导航">
+    <title>Chairo 导航 | ナビゲーション</title>
+
+    <link rel="shortcut icon" href="./base/img/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./base/img/favicon.png">
+    <link rel="stylesheet" href="./base/css/style.css">
+    
+    <script src="./base/js/color-thief.umd.js"></script>
+    
+    <link rel="stylesheet" href="https://at.alicdn.com/t/c/font_2904180_jlcrp21tfk.css?spm=a313x.7781069.1998910419.53&file=font_2904180_jlcrp21tfk.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#"><span class="iconfont icon-qp_icon_music"></span></a>
+        <a href="#"><span class="iconfont icon-calendar-event-fill"></span></a>
+        <a href="#"><span class="iconfont icon-telegram"></span></a>
+        <a href="#"><span class="iconfont icon-setting"></span></a>
+    </nav>
+
+    <div id="poster-box">
+        <div id="poster">
+            <img id="poster-img" src="./base/img/poster/bg3.jpg">
+        </div>
+
+        <!-- <video id="v-poster" src="./01.mp4" muted loop></video>
+        <script>
+            var videoposter = document.getElementById("v-poster");
+            videoposter.addEventListener('canplaythrough', function() {videoposter.play()});
+        </script> -->
+        <div class="cover"></div>
+        <div id="poster-text">
+            <h1>Chairo.YAYO | 导航站 (σ≧∀≦)σ</h1>
+            <h2>一个妄想改善二次元生态的网站 (｡・`ω´･)</h2>
+        </div>
+    </div>
+
+    <div class="view">
+
+    </div>
+
+    <script>
+        const colorThief = new ColorThief();
+        const img = document.getElementById("poster-img");
+        const box = document.querySelector('#poster');
+        const getColorFun = () => {
+            let color = colorThief.getColor(img);
+            let element = `<style>:root{--background-color:rgb(${color[0]}, ${color[1]}, ${color[2]});}</style>`;
+            box.innerHTML = element;
+            console.log(color)
+        }
+        if (img.complete) {
+            getColorFun();
+        } else {
+            img.addEventListener('load', function () {
+                getColorFun();
+            });
+        }
+    </script>
+
+    <!-- <link rel="stylesheet" href="./base/css/APlayer.min.css">
+    <script src="./base/js/APlayer.min.js"></script>
+
+    <div id="aplayer"></div>
+    <script>
+        const ap = new APlayer({
+            container: document.getElementById('aplayer'),
+            fixed: true,
+            audio: [{
+                name: 'name',
+                artist: 'artist',
+                url: 'url.mp3',
+                cover: 'cover.jpg'
+            }]
+        });
+    </script> -->
+</body>
+
+</html>
+<!-- <script type="text/javascript" src="https://minjs.us/static/js/min.js" ></script> -->

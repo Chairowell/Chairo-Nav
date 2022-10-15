@@ -1,0 +1,166 @@
+/* 重置样式 */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.1 | 20191019
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, menu, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+    display: none;
+}
+body {
+	line-height: 1;
+}
+menu, ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 重置样式 */
+
+/* 全局变量 */
+:root{
+    --background-color:#252525;
+}
+body::-webkit-scrollbar{
+    /* 滚动条宽高 */
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    /* 滚动条 */
+    background-color: #80808080;
+    box-shadow: 0 0 12px #252525;
+}
+body::-webkit-scrollbar-track{
+    /* 滚动导轨 */
+    background: var(--background-color);
+}
+body{
+    background: var(--background-color);
+    width: 100vw;
+    height: 2000px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+/* 全局变量 */
+
+/* 壁纸背景 */
+#poster-box{
+    width: 100%;
+    height: 100vh;
+}
+#poster{
+    /* 静态壁纸 */
+    z-index: 100;
+	width: 100%;
+    height: 100vh;
+	background: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    /*  */
+	background-image: url(../img/poster/bg3.jpg);
+}
+#v-poster{
+    /* 动态壁纸 */
+    z-index: 100;
+	width: 100%;
+    /* filter: brightness(0.7); */
+}
+#poster-img{
+    /* 给colortheif用的 */
+    display: none;
+}
+.cover{
+    --cover-height: 30vh;
+	width: 100%;
+    position: relative;
+    height: var(--cover-height);
+	bottom: calc(var(--cover-height) - 0.2vh);
+	background: linear-gradient(0deg, var(--background-color), #00000000);
+}
+#poster-text{
+    z-index: 80;
+    width: calc(100vw - 100px);
+    position: relative;
+    left: 100px;
+    bottom: 400px;
+}
+#poster-text h1{
+    height: 40px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+#poster-text h2{
+    height: 40px;
+    color: #ffffff;
+    font-size: 0.6rem;
+    font-weight: 300;
+}
+/* 壁纸背景 */
+
+/* 导航栏 */
+nav{
+    z-index: 1;
+    position: fixed;
+    bottom: 24px;
+    right: 36px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+nav a{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    background: #00000080;
+    box-shadow: 0 0 6px #00000080;
+    backdrop-filter: blur(6px);
+    border-radius: 6px;
+    text-align: center;
+}
+/* 导航栏 */
+
+/* VIEW */
