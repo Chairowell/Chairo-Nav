@@ -40,10 +40,13 @@
         <div id="poster">
             <script>
                 let posternum = randomNum(1, 25);
-                document.getElementById("poster").style.cssText = '--bg-image: url(../img/poster/poster' + posternum +
-                    '.jpg);';
-                document.write('<img id="poster-img" src="./base/img/poster/poster' + posternum +
-                    '.jpg" crossorigin="anonymous">');
+                readTextFile("./base/poster.json", function (text) {
+                    data = JSON.parse(text);
+                    let obj = data;
+                    document.getElementById("poster").style.cssText = '--bg-image: url('+ obj["poster"][posternum] +');';
+                    document.write('<img id="poster-img" src="' + obj["poster"][posternum] + '" crossorigin="anonymous">');
+                    console.log(obj["poster"][posternum])
+                });
             </script>
         </div>
 
@@ -111,8 +114,7 @@
     <div id="end">
         <div class="said">
             <h5>! 每周的壁纸高清合集可以在频道内下载哦 !</h5>
-            <div><a href="">Lab</a> · <a href="./">加入频道</a> · <a href="">赞助我们</a> · <a href="">友链申请</a> · <a
-                    href="">APP</a></div>
+            <div><a href="">Lab</a> · <a href="./base/img/QQ.jpg">加入频道</a> · <a href="https://afdian.net/a/Chairo">赞助我们</a> · <a onclick="alert('chairowell@gmail.com')">友链申请</a> · <a href="">APP</a></div>
             <h3>· 一切都是命运石之门的安排 ·</h3>
             <h4>Copyright Chairo.YAYO 2022</h4>
         </div>
