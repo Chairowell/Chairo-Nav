@@ -104,5 +104,8 @@
         "5": {"name": "TELASA","url": "https://www.telasa.jp","icon": "./image/url/www.telasa.jp.svg","explain": "アニメ - 映画 - 特撮！"},
         "6": {"name": "クランクイン！","url": "https://video.crank-in.net","icon": "./image/url/video.crank-in.net.png","explain": "話題の最新映画ど動画配信"},
         "7": {"name": "GYAO!","url": "https://gyao.yahoo.co.jp","icon": "./image/url/gyao.yahoo.co.jp.png","explain": " 無料でアニメ、映画を見る"}
+    },
+    "友链":{
+        "1": {"name": "呲哩呲哩","url":"http://www.cilicili.cc","icon":"http://www.cilicili.cc/api/images/tx","explain":"一个神奇的导航站"}
     }
 }
