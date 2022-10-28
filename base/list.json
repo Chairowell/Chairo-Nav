@@ -1,7 +1,7 @@
 {
     "Animation": {
-        "1": {"name": "AGE动漫","url": "https://www.agemys.com","icon": "./image/url/www.agemys.com.png","explain": "每日推荐100部番 备用www.age.tv"},
-        "2": {"name": "OmoFun","url": "https://omofun.tv","icon": "./image/url/omofun.tv.png","explain": "专注创造干净的弹幕环境"},
+        "1": {"name": "AGE动漫","url": "https://www.agemys.net","icon": "./image/url/www.agemys.com.png","explain": "每日推荐100部番 备用www.age.tv"},
+        "2": {"name": "ebb","url": "https://ebb.io","icon": "./image/url/ebb.io.png","explain": "新番連載 需要魔法上网和登录才能使用"},
         "3": {"name": "AcFun","url": "https://www.acfun.cn","icon": "./image/url/www.acfun.cn.png","explain": "认真你就输啦！"},
         "4": {"name": "bilibili","url": "https://www.bilibili.com","icon": "./image/url/www.bilibili.com.png","explain": "bilibili乾杯🍻"},
         "5": {"name": "異世界動漫","url": "hhttp://www.ysjdm.net","icon": "./image/url/www.ysjdm.net.png","explain": "新番推送最快"},
@@ -11,12 +11,11 @@
         "9": {"name": "CC動漫","url": "https://agefans.tw","icon": "./image/url/nan.png","explain": "專注於資源收集整理"},
         "10": {"name": "久久动漫","url": "http://www.995dm.com","icon": "./image/url/www.995dm.com.png","explain": "动漫在线观看(资源更新慢)"},
         "11": {"name": "pilipili","url": "http://pilipili.cm","icon": "./image/url/nan.png","explain": "我们的二次元异世界！"},
-        "12": {"name": "ebb","url": "https://ebb.io","icon": "./image/url/ebb.io.png","explain": "新番連載-線上試看"},
+        "12": {"name": "AGE 动漫","url": "http://www.agedm.net","icon": "./image/url/www.agedm.net.png","explain": "兴趣使然的看番小站"},
         "13": {"name": "EDD动漫","url": "http://www.edddh1.com","icon": "./image/url/www.edddh1.com.png","explain": "边看番边聊天"},
         "14": {"name": "哔咪动漫","url": "http://www.bimiacg4.net","icon": "./image/url/www.bimiacg4.net.png","explain": "兴趣使然的无名小站"},
         "15": {"name": "ACG.RW","url": "https://www.acgrw.net","icon": "./image/url/nan.png","explain": "工口，R18，里番"},
-        "16": {"name": "HentaiAnimeZone","url": "https://hentaianimezone.com","icon": "./image/url/hentaianimezone.com.png","explain": "工口，R18，里番"},
-        "17": {"name": "AGE 动漫","url": "http://www.agedm.net","icon": "./image/url/www.agedm.net.png","explain": "兴趣使然的看番小站"}
+        "16": {"name": "HentaiAnimeZone","url": "https://hentaianimezone.com","icon": "./image/url/hentaianimezone.com.png","explain": "工口，R18，里番"}
     },
     "SearchEngines": {
         "1": {"name": "茶杯狐","url": "https://www.cupfox.app","icon": "./image/url/www.cupfox.app.png","explain": "努力让找资源变得简单"},
