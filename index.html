@@ -19,6 +19,9 @@
     <script src="./base/js/script.js"></script>
 
     <link rel="stylesheet" href="//at.alicdn.com/t/c/font_2904180_u6wqa1gon7.css">
+
+    <link rel="stylesheet" href="./base/css/APlayer.min.css">
+    <script src="./base/js/APlayer.min.js"></script>
 </head>
 
 <body>
@@ -43,8 +46,11 @@
                 readTextFile("./base/poster.json", function (text) {
                     data = JSON.parse(text);
                     let obj = data;
-                    document.getElementById("poster").style.cssText = '--bg-image: url('+ obj["poster"][posternum] +');';
-                    document.write('<img id="poster-img" src="' + obj["poster"][posternum] + '" crossorigin="anonymous">');
+                    document.getElementById("poster").style.cssText = '--bg-image: url(' + obj["poster"][
+                        posternum
+                    ] + ');';
+                    document.write('<img id="poster-img" src="' + obj["poster"][posternum] +
+                        '" crossorigin="anonymous">');
                     console.log(obj["poster"][posternum])
                 });
             </script>
@@ -68,8 +74,7 @@
     </div>
 
 
-    <link rel="stylesheet" href="./base/css/APlayer.min.css">
-    <script src="./base/js/APlayer.min.js"></script>
+    
     <div id="aplayer"></div>
     <script>
         const ap = new APlayer({
@@ -79,13 +84,15 @@
             preload: 'auto',
             order: 'random',
             lrcType: 3,
-            audio: [{
-                name: '街物语',
-                artist: '山下達郎',
-                url: './base/music/街物语 - 山下達郎.mp3',
-                cover: './base/music/街物语 - 山下達郎.jpg',
-                lrc: './base/music/街物语 - 山下達郎.lrc'
-            }]
+            audio: [
+                {
+                name: '今はその剣を置いて',
+                artist: '川井憲次',
+                url: './base/music/今はその剣を置いて - 川井憲次.mp3',
+                cover: './base/music/今はその剣を置いて - 川井憲次.jpg',
+                lrc: './base/music/今はその剣を置いて - 川井憲次.lrc'
+                }
+            ]
         });
         const image = new Image();
         const xhr = new XMLHttpRequest();
@@ -114,12 +121,16 @@
     <div id="end">
         <div class="said">
             <h5>! 每周的壁纸高清合集可以在频道内下载哦 !</h5>
-            <div><a href="">Lab</a> · <a href="./base/img/QQ.jpg">加入频道</a> · <a href="https://afdian.net/a/Chairo">赞助我们</a> · <a onclick="alert('chairowell@gmail.com')">友链申请</a> · <a href="">APP</a></div>
+            <div><a href="">Lab</a> · <a href="./base/img/QQ.jpg">加入频道</a> · <a
+                    href="https://afdian.net/a/Chairo">赞助我们</a> · <a onclick="alert('chairowell@gmail.com')">友链申请</a> ·
+                <a href="">APP</a></div>
             <h3>· 一切都是命运石之门的安排 ·</h3>
             <h4>Copyright Chairo.YAYO 2022</h4>
         </div>
     </div>
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=0&t=n&d=o9YWHIWTDU0-LmCLCGhwJglbMhugBprq1efNvr1D_u0&co=ffffff&cmo=ffffff&cmn=ffffff'></script>
+    <script type='text/javascript' id='clustrmaps'
+        src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=0&t=n&d=o9YWHIWTDU0-LmCLCGhwJglbMhugBprq1efNvr1D_u0&co=ffffff&cmo=ffffff&cmn=ffffff'>
+    </script>
 </body>
 
 </html>
