@@ -8,35 +8,51 @@
     <meta name="description" content="Chairo 导航|ナビゲーション 收录各种各样奇怪资源的导航(｡・`ω´･)">
     <meta name="keywords" content="C站,番剧,ACG,动漫,弹幕,音乐,导航">
     <title>Chairo 导航 | ナビゲーション</title>
-
+    <base target="_blank">
     <link rel="shortcut icon" href="./base/img/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="./base/img/favicon.png">
+    <link rel="manifest" href="./base/PWA/manifest.json">
     <link rel="stylesheet" href="./base/css/style.css">
-    
+
     <script src="./base/js/color-thief.umd.js"></script>
-    
-    <link rel="stylesheet" href="https://at.alicdn.com/t/c/font_2904180_jlcrp21tfk.css?spm=a313x.7781069.1998910419.53&file=font_2904180_jlcrp21tfk.css">
+    <script src="./base/js/ping.min.js"></script>
+    <script src="./base/js/script.js"></script>
+
+    <link rel="stylesheet" href="//at.alicdn.com/t/c/font_2904180_u6wqa1gon7.css">
 </head>
 
 <body>
 
     <nav>
-        <a href="#"><span class="iconfont icon-qp_icon_music"></span></a>
-        <a href="#"><span class="iconfont icon-calendar-event-fill"></span></a>
-        <a href="#"><span class="iconfont icon-telegram"></span></a>
-        <a href="#"><span class="iconfont icon-setting"></span></a>
+        <a href="#Animation" target="_self"><span class="iconfont icon-video"></span></a>
+        <a href="#SearchEngines" target="_self"><span class="iconfont icon-search"></span></a>
+        <!-- <a href="#Tools" target="_self"><span class="iconfont icon-tools"></span></a> -->
+        <a href="#Illustration~HBook" target="_self"><span class="iconfont icon-picture"></span></a>
+        <!-- <a href="#Music" target="_self"><span class="iconfont icon-music"></span></a> -->
+        <a href="#Download" target="_self"><span class="iconfont icon-download"></span></a>
+        <a href="#Wiki" target="_self"><span class="iconfont icon-deploymentunit"></span></a>
+        <!-- <a href="#Games" target="_self"><span class="iconfont icon-games"></span></a> -->
+        <a href="#poster" target="_self"><span class="iconfont icon-up"></span></a>
+        <a href="#end" target="_self"><span class="iconfont icon-down"></span></a>
     </nav>
 
     <div id="poster-box">
         <div id="poster">
-            <img id="poster-img" src="./base/img/poster/bg3.jpg">
+            <script>
+                let posternum = randomNum(1, 25);
+                document.getElementById("poster").style.cssText = '--bg-image: url(../img/poster/poster' + posternum +
+                    '.jpg);';
+                document.write('<img id="poster-img" src="./base/img/poster/poster' + posternum +
+                    '.jpg" crossorigin="anonymous">');
+            </script>
         </div>
 
-        <!-- <video id="v-poster" src="./01.mp4" muted loop></video>
+        <!-- <video id="v-poster" src="./base/video/01.mp4" muted loop></video>
         <script>
             var videoposter = document.getElementById("v-poster");
             videoposter.addEventListener('canplaythrough', function() {videoposter.play()});
         </script> -->
+
         <div class="cover"></div>
         <div id="poster-text">
             <h1>Chairo.YAYO | 导航站 (σ≧∀≦)σ</h1>
@@ -44,46 +60,64 @@
         </div>
     </div>
 
-    <div class="view">
-
+    <div id="view">
+        <script src="./base/js/setting.js"></script>
     </div>
 
-    <script>
-        const colorThief = new ColorThief();
-        const img = document.getElementById("poster-img");
-        const box = document.querySelector('#poster');
-        const getColorFun = () => {
-            let color = colorThief.getColor(img);
-            let element = `<style>:root{--background-color:rgb(${color[0]}, ${color[1]}, ${color[2]});}</style>`;
-            box.innerHTML = element;
-            console.log(color)
-        }
-        if (img.complete) {
-            getColorFun();
-        } else {
-            img.addEventListener('load', function () {
-                getColorFun();
-            });
-        }
-    </script>
 
-    <!-- <link rel="stylesheet" href="./base/css/APlayer.min.css">
+    <link rel="stylesheet" href="./base/css/APlayer.min.css">
     <script src="./base/js/APlayer.min.js"></script>
-
     <div id="aplayer"></div>
     <script>
         const ap = new APlayer({
             container: document.getElementById('aplayer'),
             fixed: true,
+            volume: 0.5,
+            preload: 'auto',
+            order: 'random',
+            lrcType: 3,
             audio: [{
-                name: 'name',
-                artist: 'artist',
-                url: 'url.mp3',
-                cover: 'cover.jpg'
+                name: '街物语',
+                artist: '山下達郎',
+                url: './base/music/街物语 - 山下達郎.mp3',
+                cover: './base/music/街物语 - 山下達郎.jpg',
+                lrc: './base/music/街物语 - 山下達郎.lrc'
             }]
         });
-    </script> -->
+        const image = new Image();
+        const xhr = new XMLHttpRequest();
+        const setTheme = (index) => {
+            if (!ap.list.audios[index].theme) {
+                xhr.onload = function () {
+                    let coverUrl = URL.createObjectURL(this.response);
+                    image.onload = function () {
+                        let color = colorThief.getColor(image);
+                        ap.theme(`rgb(${color[0]}, ${color[1]}, ${color[2]})`, index);
+                        URL.revokeObjectURL(coverUrl)
+                    };
+                    image.src = coverUrl;
+                }
+                xhr.open('GET', ap.list.audios[index].cover, true);
+                xhr.responseType = 'blob';
+                xhr.send();
+            }
+        };
+        setTheme(ap.list.index);
+        ap.on('listswitch', (index) => {
+            setTheme(index);
+        });
+    </script>
+
+    <div id="end">
+        <div class="said">
+            <h5>! 每周的壁纸高清合集可以在频道内下载哦 !</h5>
+            <div><a href="">Lab</a> · <a href="./">加入频道</a> · <a href="">赞助我们</a> · <a href="">友链申请</a> · <a
+                    href="">APP</a></div>
+            <h3>· 一切都是命运石之门的安排 ·</h3>
+            <h4>Copyright Chairo.YAYO 2022</h4>
+        </div>
+    </div>
+    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=0&t=n&d=o9YWHIWTDU0-LmCLCGhwJglbMhugBprq1efNvr1D_u0&co=ffffff&cmo=ffffff&cmn=ffffff'></script>
 </body>
 
 </html>
-<!-- <script type="text/javascript" src="https://minjs.us/static/js/min.js" ></script> -->

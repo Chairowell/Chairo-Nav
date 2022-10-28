@@ -1,0 +1,17 @@
+{
+    "lang": "zh-hans",
+    "name": "Chairo.YAYO",
+    "short_name": "Chairo.YAYO",
+    "icons": [{
+      "src": "base/img/favicon.png",
+      "sizes": "128x128"
+      }],
+    "start_url": "/index.html",
+    "display": "fullscreen",
+    "theme_color": "chocolate",
+    "background_color": "gray",
+    "dir": "ltr",
+    "scope": "/",
+    "id": "superracer",
+    "orientation": "landscape"
+  }

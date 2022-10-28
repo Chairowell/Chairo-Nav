@@ -73,7 +73,7 @@ body::-webkit-scrollbar-track{
 body{
     background: var(--background-color);
     width: 100vw;
-    height: 2000px;
+    min-width: 300px;
     overflow: auto;
     overflow-x: hidden;
 }
@@ -98,8 +98,8 @@ a{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    /*  */
-	background-image: url(../img/poster/bg3.jpg);
+
+	background-image: var(--bg-image);
 }
 #v-poster{
     /* 动态壁纸 */
@@ -121,20 +121,20 @@ a{
 }
 #poster-text{
     z-index: 80;
-    width: calc(100vw - 100px);
+    width: calc(100vw - 200px);
+    min-width: 188px;
     position: relative;
     left: 100px;
     bottom: 400px;
+    color: #fff;
 }
 #poster-text h1{
-    height: 40px;
-    color: #fff;
+    margin: 20px 0;
     font-size: 1.2rem;
     font-weight: 300;
 }
 #poster-text h2{
-    height: 40px;
-    color: #ffffff;
+    margin: 20px 0;
     font-size: 0.6rem;
     font-weight: 300;
 }
@@ -142,16 +142,16 @@ a{
 
 /* 导航栏 */
 nav{
-    z-index: 1;
+    z-index: 5;
     position: fixed;
     bottom: 24px;
     right: 36px;
     width: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 nav a{
+    z-index: 1;
     color: #fff;
     width: 100%;
     padding: 10px;
@@ -160,7 +160,198 @@ nav a{
     backdrop-filter: blur(6px);
     border-radius: 6px;
     text-align: center;
+    margin: 6px 0;
+    transition: background 0.3s;
+}
+nav a:hover{
+    transition: background 0.5s;
+    background: #000000cc;
 }
 /* 导航栏 */
 
 /* VIEW */
+#view{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.partition-name{
+    height: 24px;
+    padding-top: 36px;
+    font-size: 18px;
+    font-weight: 800;
+    /*  */
+    color: #fff;
+}
+.partition-box{
+    width: 100%;
+    margin: 12px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.link-box{
+    width: calc(25% - 40px);
+    height: 54px;
+    margin: 5px;
+    padding: 15px;
+    transition: all 0.2s;
+    opacity: 0.85;
+}
+.link-box:hover{
+    opacity: 1;
+    border-radius: 5px;
+    background-color: #ffffff11;
+    transform: translateY(-3px);
+    box-shadow: 0 3px 20px #00000047;
+    animation: index-link-active 1s cubic-bezier(.315,.605,.375,.925) forwards;
+}
+.link-image{
+    background: #4d4d4d;
+    width: 54px;
+    height: 54px;
+    margin-right: 12px;
+    border-radius: 100%;
+    float: left;
+}
+.link-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.link-name{
+    color: #fff;
+    margin: 6px 0 6px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.link-explain{
+    width: 100%;
+    height: 24px;
+    color: #fff;
+    font-size: 12px;
+    white-space:normal;
+    line-height: 120%;
+    word-break:break-all;
+    word-wrap:break-word; 
+}
+.link-ping{
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    line-height: 100%;
+}
+.ping-gray,.ping-green,.ping-red,.ping-yellow{
+    float: left;
+    width: 6px;  
+    height: 6px;
+    margin-right: 6px;
+    border-radius: 100%;
+}
+.ping-gray{
+    background: hsl(0, 0%, 50%);
+    border: 3px solid hsl(0, 0%, 40%);
+    box-shadow: 0 0 6px hsl(0, 0%, 20%);
+}
+.ping-green{
+    background: hsl(143, 100%, 30%);
+    border: 3px solid hsl(143, 100%, 22%);
+    box-shadow: 0 0 6px hsl(143, 100%, 20%);
+}
+.ping-yellow{
+    background: hsl(44, 100%, 50%);
+    border: 3px solid hsl(44, 100%, 40%);
+    box-shadow: 0 0 6px hsl(44, 100%, 20%);
+}
+.ping-red{
+    background: hsl(0, 100%, 40%);
+    border: 3px solid hsl(0, 100%, 27%);
+    box-shadow: 0 0 6px hsl(0, 100%, 20%);
+}
+
+
+/* VIEW */
+
+/* END */
+.said{
+    margin-top: 60px;
+    text-align: center;
+}
+.said h3{
+    margin: 36px 0 24px 0;
+    font-size: 16px;
+    letter-spacing: 12px;
+    color: #ffffff;
+}
+.said h4{
+    margin: 6px 0 120px 0;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #ffffff80;
+}
+.said h5{
+    margin: 6px;
+    font-size: 8px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-decoration: overline;
+}
+.said a{
+    font-size: 10px;
+    color: #ffffff;
+    transition: color 0.3s;
+    letter-spacing: 1px;
+}
+.said a:hover{
+    color: #808080;
+    transition: color 0.3s;
+}
+/* END */
+
+/* Aplayer */
+#aplayer{
+    zoom: 100%;
+}
+/* Aplayer */
+
+/* 移动端 */
+@media (max-width:760px) {
+    .link-box{
+        width: calc(42% - 10px);
+    }
+}
+@media (max-width:500px) {
+    #v-poster{
+        display: none;
+    }
+    #poster-text{
+        width: calc(100vw - 2 * 12vw - 40px);
+        position: relative;
+        left: 12vw;
+        bottom: 66vh;
+    }
+    #view{
+        width: 70vw;
+        min-width: 240px;
+        margin: 0 auto;
+    }
+    .link-box{
+        width: 100%;
+    }
+}
+/* pwa样式兼容 */
+/* @media (min-width: 737px) and (display-mode: standalone) {
+    body::after {
+        content: '';
+        display: block;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 1px;
+        background: rgb(218, 225, 233);
+        z-index: 10000;
+    }
+} */
+/* 移动端 */
