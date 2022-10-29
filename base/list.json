@@ -2,7 +2,7 @@
     "Animation": {
         "1": {"name": "AGE动漫","url": "https://www.agemys.com","icon": "./image/url/www.agemys.com.png","explain": "每日推荐100部番 备用www.age.tv"},
         "2": {"name": "ebb","url": "https://ebb.io","icon": "./image/url/ebb.io.png","explain": "新番連載 需要魔法上网和登录才能使用"},
-        "3": {"name": "異世界動漫","url": "hhttp://www.ysjdm.net","icon": "./image/url/www.ysjdm.net.png","explain": "新番推送最快"},
+        "3": {"name": "異世界動漫","url": "http://www.ysjdm.net","icon": "./image/url/www.ysjdm.net.png","explain": "新番推送最快"},
         "4": {"name": "哔咪动漫","url": "http://www.bimiacg4.net","icon": "./image/url/www.bimiacg4.net.png","explain": "兴趣使然的无名小站"},
         "5": {"name": "AcFun","url": "https://www.acfun.cn","icon": "./image/url/www.acfun.cn.png","explain": "认真你就输啦！"},
         "6": {"name": "bilibili","url": "https://www.bilibili.com","icon": "./image/url/www.bilibili.com.png","explain": "bilibili乾杯🍻"},
