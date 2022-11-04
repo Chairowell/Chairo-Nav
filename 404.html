@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Find</title>
+    <script src="./base/js/script.js"></script>
+    <link rel="stylesheet" href="./base/css/style.css">
+    <link rel="shortcut icon" href="./base/img/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./base/img/favicon.png">
+</head>
+<body>
+    <div id="poster-box">
+        <div id="poster">
+            <script>
+                let posternum = randomNum(0, 74);
+                readTextFile("./base/poster.json", function (text) {
+                    data = JSON.parse(text);
+                    let obj = data;
+                    document.getElementById("poster").style.cssText = '--bg-image: url(' + obj["poster"][
+                        posternum
+                    ] + ');';
+                    document.write('<img id="poster-img" src="' + obj["poster"][posternum] +
+                        '" crossorigin="anonymous">');
+                    console.log(obj["poster"][posternum])
+                });
+            </script>
+        </div>
+
+        <!-- <video id="v-poster" src="./base/video/01.mp4" muted loop></video>
+        <script>
+            var videoposter = document.getElementById("v-poster");
+            videoposter.addEventListener('canplaythrough', function() {videoposter.play()});
+        </script> -->
+
+        <div class="cover"></div>
+        <div id="poster-text">
+            <h1>404啦！</h1>
+            <h1>快找栗子酱修复！<a href="./index.html" target="_self" style="color: #484848;">~ 点此处返回 ~</a></h1>
+            <h2>Chairo.YAYO | 导航站 (σ≧∀≦)σ</h2>
+        </div>
+    </div>
+</body>
+</html>
