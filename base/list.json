@@ -20,7 +20,7 @@
     "SearchEngines": {
         "1": {"name": "茶杯狐","url": "https://www.cupfox.app","icon": "./image/url/www.cupfox.app.png","explain": "努力让找资源变得简单"},
         "2": {"name": "搜图Bot酱","url": "https://soutubot.moe","icon": "./image/url/soutubot.moe.png","explain": "超强大的本子&图 搜索引擎"},
-        "3": {"name": "Trace.moe","url": "hhttps://trace.moe","icon": "./image/url/trace.moe.png","explain": "超强大的番剧画面检索引擎"},
+        "3": {"name": "Trace.moe","url": "https://trace.moe","icon": "./image/url/trace.moe.png","explain": "超强大的番剧画面检索引擎"},
         "4": {"name": "画像検索","url": "https://ascii2d.net","icon": "./image/url/ascii2d.net.png","explain": "二次元画像詳細検索"},
         "5": {"name": "搜漫","url": "https://www.soman.com","icon": "./image/url/www.soman.com.png","explain": "漫画搜索引擎"},
         "6": {"name": "東京図書館","url": "https://www.tokyotosho.info","icon": "./image/url/www.tokyotosho.info.png","explain": "强大的BT资源检索平台"}
