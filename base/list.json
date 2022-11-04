@@ -69,7 +69,7 @@
         "15": {"name": "爱恋动漫BT","url": "http://www.kisssub.org","icon": "./image/url/www.kisssub.org.png","explain": "各类ACG资源聚集地"}
     },
     "Wiki": {
-        "1": {"name": "萌娘百科","url": "https://zh.moegirl.org.cn","icon": "./image/url/zh.moegirl.org.cn.png","explain": "万物皆可萌的百科全书"},
+        "1": {"name": "萌娘百科","url": "https://zh.moegirl.org.cn","icon": "./image/url/zh.moegirl.org.cn.jpg","explain": "万物皆可萌的百科全书"},
         "2": {"name": "MyAnimeList","url": "https://myanimelist.net/","icon": "./image/url/myanimelist.net.png","explain": "番剧图书馆，资料超全(英文界面)"},
         "3": {"name": "AniDB","url": "https://anidb.net","icon": "./image/url/anidb.net.png","explain": "超级详细的ACG百科(英文界面)"},
         "4": {"name": "IMDB","url": "https://www.imdb.com","icon": "./image/url/www.imdb.com.png","explain": "互联网电影资料库"},
