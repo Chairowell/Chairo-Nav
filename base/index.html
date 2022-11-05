@@ -37,6 +37,7 @@
     POSTER - SETTING
     <a onclick="poster_json()">确定</a>
     <a onclick="saveJSON(document.getElementById('json-show').innerHTML, 'poster.json')">下载</a>
+    <div id="count"></div>
     <div class="poster-setting">
         <textarea name="" id="poster-url" cols="100" rows="20"></textarea>
         <textarea name="" id="json-show" cols="100" rows="20"></textarea>
@@ -66,6 +67,7 @@
 
         function poster_json() {
             let poster_url = document.getElementById('poster-url').value.split('\n');
+            document.getElementById('count').innerHTML = poster_url.length;
             var data = {
                 "poster": poster_url
             };
