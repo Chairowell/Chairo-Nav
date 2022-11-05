@@ -42,8 +42,7 @@
     <div id="poster-box">
         <div id="poster">
             <script>
-                randomNum(0, 121);
-                let posternum = 76;
+                let posternum = randomNum(0, 121);
                 readTextFile("./base/poster.json", function (text) {
                     data = JSON.parse(text);
                     let obj = data;
