@@ -46,11 +46,8 @@
                 readTextFile("./base/poster.json", function (text) {
                     data = JSON.parse(text);
                     let obj = data;
-                    document.getElementById("poster").style.cssText = '--bg-image: url(' + obj["poster"][
-                        posternum
-                    ] + ');';
-                    document.write('<img id="poster-img" src="' + obj["poster"][posternum] +
-                        '" crossorigin="anonymous">');
+                    document.getElementById("poster").style.cssText = '--bg-image: url(' + obj["poster"][posternum] + ');';
+                    document.write('<img id="poster-img" src="' + obj["poster"][posternum] +'" crossorigin="anonymous">');
                 });
             </script>
         </div>
