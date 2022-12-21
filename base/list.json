@@ -118,7 +118,7 @@
     },
     "Games":{
         "2": {"name": "2DFan","url": "https://galge.fun","icon": "./base/url/galge.fun.png","explain": "专注于提供日本游戏攻略资讯"},
-        "3": {"name": "My galgame","url": "https://www.okloli.com","icon": "./base/url/www.okloli.com.png","explain": "galgame攻略+汉化下载"},
+        "3": {"name": "My galgame","url": "https://www.ttloli.com","icon": "./base/url/www.okloli.com.png","explain": "galgame攻略+汉化下载"},
         "4": {"name": "UPUPO","url": "https://www.upupuo.com","icon": "./base/url/www.upupuo.com.png","explain": "游戏资讯站"},
         "1": {"name": "NGA玩家社区","url": "https://bbs.nga.cn/","icon": "./base/url/bbs.nga.cn.png","explain": "最大的全游戏社区 精英玩家俱乐部"}
     },
