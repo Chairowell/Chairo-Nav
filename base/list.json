@@ -37,6 +37,7 @@
         "4": {"name": "唧唧","url": "https://www.jijidown.com","icon": "./base/url/www.jijidown.com.png","explain": "bilibili视频|弹幕在线下载"},
         "3": {"name": "观测枢","url": "https://webstatic.mihoyo.com/ys/app/interactive-map/","icon": "./base/url/webstatic.mihoyo.com.ys.app.interactive-map.png","explain": "提瓦特大地图工具"},
         "6": {"name": "Images Tool","url": "https://imagestool.com/webp2jpg-online/","icon": "./base/url/imagestool.com.png","explain": "多功能图片转换器"},
+        "8": {"name": "颜文字屋さん","url": "http://kaomojiya.com/","icon": "http://kaomojiya.com/favicon.ico","explain": "顔文字一覧"},
         "7": {"name": "Waifu Labs","url": "https://waifulabs.com/","icon": "./base/url/waifulabs.com.png","explain": "AI二次元头像生成"}
     },
     "Illustration~HBook": {
