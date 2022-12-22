@@ -87,7 +87,7 @@
         "9": {"name": "VCB-studio","url": "https://vcb-s.com","icon": "./base/url/vcb-s.com.png","explain": "包含sp、cd等硬资源"},
         "16": {"name": "射手网(伪)","url": "https://2.assrt.net","icon": "./base/url/2.assrt.net.png","explain": "字幕搜索字幕下载"},
         "19": {"name": "模之屋","url": "https://www.aplaybox.com/","icon": "./base/url/www.aplaybox.com.png","explain": "专业模型创作分享社区"},
-        "3": {"name": "动漫花园","url": "https://dmhy.anoneko.com","icon": "./base/url/dmhy.anoneko.com.png","explain": "老牌资源站，全搜录"}
+        "3": {"name": "动漫花园","url": "https://share.dmhy.org/","icon": "./base/url/dmhy.anoneko.com.png","explain": "老牌资源站，全搜录，备用https://dmhy.anoneko.com"}
     },
     "Wiki": {
         "1": {"name": "萌娘百科","url": "https://zh.moegirl.org.cn","icon": "./base/url/zh.moegirl.org.cn.jpg","explain": "万物皆可萌的百科全书"},
