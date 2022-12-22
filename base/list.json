@@ -55,6 +55,7 @@
         "10": {"name": "摸鱼mooyuu","url": "https://www.mooyuu.com","icon": "./base/url/www.mooyuu.com.png","explain": "国内插画分享社区"},
         "11": {"name": "Danbooru","url": "https://danbooru.donmai.us","icon": "./base/url/danbooru.donmai.us.png","explain": "同人插画收录站"},
         "12": {"name": "nhentai","url": "https://nhentai.net","icon": "./base/url/nhentai.net.svg","explain": "本子社区，收录超全"},
+        "14": {"name": "Gelbooru","url": "https://gelbooru.com/","icon": "https://gelbooru.com/favicon.png","explain": "收录各大画师的作品"},
         "13": {"name": "株式会社Live2D","url": "https://www.live2d.jp/","icon": "./base/url/www.live2d.jp.png","explain": "日本Live2D制作公司"}
     },
     "Music & Novel": {
