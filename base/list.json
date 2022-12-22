@@ -28,6 +28,7 @@
         "4": {"name": "画像検索","url": "https://ascii2d.net","icon": "./base/url/ascii2d.net.png","explain": "二次元画像詳細検索"},
         "5": {"name": "搜漫","url": "https://www.soman.com","icon": "./base/url/www.soman.com.png","explain": "漫画搜索引擎"},
         "6": {"name": "東京図書館","url": "https://www.tokyotosho.info","icon": "./base/url/www.tokyotosho.info.png","explain": "强大的BT资源检索平台"},
+        "8": {"name": "Multi","url": "https://iqdb.org/","icon": "./base/url/nan.png","explain": "画像検索支持Pixiv，Twitter画师"},
         "7": {"name": "Google搜图","url": "https://www.google.com/imghp/","icon": "./base/url/www.google.com.png","explain": "需要魔法上网才能使用的大型搜索引擎"}
     },
     "Tools": {
