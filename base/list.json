@@ -88,17 +88,18 @@
     },
     "Wiki": {
         "1": {"name": "萌娘百科","url": "https://zh.moegirl.org.cn","icon": "./base/url/zh.moegirl.org.cn.jpg","explain": "万物皆可萌的百科全书"},
-        "2": {"name": "MyAnimeList","url": "https://myanimelist.net/","icon": "./base/url/myanimelist.net.png","explain": "番剧图书馆，资料超全(英文界面)"},
-        "3": {"name": "AniDB","url": "https://anidb.net","icon": "./base/url/anidb.net.png","explain": "超级详细的ACG百科(英文界面)"},
-        "4": {"name": "IMDB","url": "https://www.imdb.com","icon": "./base/url/www.imdb.com.png","explain": "互联网电影资料库"},
-        "11": {"name": "AnimeNetWork","url": "https://www.animenewsnetwork.com","icon": "./base/url/nan.png","explain": "ACG-Wiki"},
-        "7": {"name": "小鸡词典","url": "https://jikipedia.com/","icon": "./base/url/jikipedia.com.png","explain": "紧跟网络热梗，梗百科"},
-        "8": {"name": "zeroroku","url": "https://zeroroku.com","icon": "./base/url/zeroroku.com.png","explain": "致力于提供有价值的b站信息"},
-        "12": {"name": "biliob233","url": "https://biliob233.github.io","icon": "./base/url/biliob233.github.io.png","explain": "Bilibili观察站"},
+        "2": {"name": "H萌Wiki","url": "https://hmoegirl.info/","icon": "https://hmoegirl.info/favicon.ico","explain": "里番百科，懂的都懂"},
+        "3": {"name": "MyAnimeList","url": "https://myanimelist.net/","icon": "./base/url/myanimelist.net.png","explain": "番剧图书馆，资料超全(英文界面)"},
+        "4": {"name": "AniDB","url": "https://anidb.net","icon": "./base/url/anidb.net.png","explain": "超级详细的ACG百科(英文界面)"},
+        "5": {"name": "IMDB","url": "https://www.imdb.com","icon": "./base/url/www.imdb.com.png","explain": "互联网电影资料库"},
+        "12": {"name": "AnimeNetWork","url": "https://www.animenewsnetwork.com","icon": "./base/url/nan.png","explain": "ACG-Wiki"},
+        "8": {"name": "小鸡词典","url": "https://jikipedia.com/","icon": "./base/url/jikipedia.com.png","explain": "紧跟网络热梗，梗百科"},
+        "9": {"name": "zeroroku","url": "https://zeroroku.com","icon": "./base/url/zeroroku.com.png","explain": "致力于提供有价值的b站信息"},
+        "13": {"name": "biliob233","url": "https://biliob233.github.io","icon": "./base/url/biliob233.github.io.png","explain": "Bilibili观察站"},
         "9": {"name": "H萌","url": "https://hmacg.cn/bangumi","icon": "./base/url/nan.png","explain": "动漫新番表 追番表"},
-        "6": {"name": "维基百科","url": "https://www.wikipedia.org/","icon": "./base/url/www.wikipedia.org.png","explain": "wikipedia 自由的百科"},
+        "7": {"name": "维基百科","url": "https://www.wikipedia.org/","icon": "./base/url/www.wikipedia.org.png","explain": "wikipedia 自由的百科"},
         "10": {"name": "Anime List","url": "https://acgntaiwan.github.io/Anime-List","icon": "./base/url/acgntaiwan.github.io.png","explain": "各年番剧列表,新番导视"},
-        "5": {"name": "YuC's AnimeList","url": "https://yuc.wiki","icon": "./base/url/yuc.wiki.png","explain": "细致的番剧时间收录表"}
+        "11": {"name": "YuC's AnimeList","url": "https://yuc.wiki","icon": "./base/url/yuc.wiki.png","explain": "细致的番剧时间收录表"}
     },
     "BBS & Info": {
         "3": {"name": "扶她404","url": "http://www.futa404.com","icon": "./base/url/nan.png","explain": "一个肥宅好评率99%的网站"},
