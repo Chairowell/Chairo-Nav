@@ -1,7 +1,7 @@
 {
     "Animation": {
         "1": {"name": "AGE动漫","url": "https://www.agemys.net","icon": "./base/url/www.agemys.com.png","explain": "每日推荐100部番 备用www.age.tv"},
-        "2": {"name": "ebb","url": "https://ebb.io","icon": "./base/url/ebb.io.png","explain": "新番連載 需要魔法上网和登录才能使用"},
+        "2": {"name": "ebb","url": "https://ebb.io","icon": "./base/url/nan.png","explain": "新番連載 需要魔法上网和登录才能使用"},
         "3": {"name": "異世界動漫","url": "http://www.ysjdm.net","icon": "./base/url/www.ysjdm.net.png","explain": "新番推送最快，备用www.sbdm.net"},
         "4": {"name": "哔咪动漫","url": "http://www.bimiacg4.net","icon": "./base/url/www.bimiacg4.net.png","explain": "兴趣使然的无名小站"},
         "5": {"name": "AcFun","url": "https://www.acfun.cn","icon": "./base/url/www.acfun.cn.png","explain": "认真你就输啦！"},
@@ -116,7 +116,7 @@
         "3": {"name": "动漫花园","url": "https://share.dmhy.org/","icon": "./base/url/dmhy.anoneko.com.png","explain": "老牌资源站，全搜录，备用dmhy.anoneko.com"}
     },
     "Wiki": {
-        "1": {"name": "萌娘百科","url": "https://zh.moegirl.org.cn","icon": "./base/url/zh.moegirl.org.cn.jpg","explain": "万物皆可萌的百科全书"},
+        "1": {"name": "萌娘百科","url": "https://zh.moegirl.org.cn","icon": "./base/url/nan.png","explain": "万物皆可萌的百科全书"},
         "2": {"name": "H萌Wiki","url": "https://hmoegirl.info/","icon": "https://hmoegirl.info/favicon.ico","explain": "里番百科，懂的都懂"},
         "3": {"name": "MyAnimeList","url": "https://myanimelist.net/","icon": "./base/url/myanimelist.net.png","explain": "番剧图书馆，资料超全(英文界面)"},
         "4": {"name": "AniDB","url": "https://anidb.net","icon": "./base/url/anidb.net.png","explain": "超级详细的ACG百科(英文界面)"},
