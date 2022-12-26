@@ -25,7 +25,7 @@
         "24": {"name": "OmoFun动漫","url": "https://omofun.tv/","icon": "https://tva1.sinaimg.cn/mw2000/008kgqGagy1h6q8jddhb8j331d31d1kx.jpg","explain": "仅提供软件观看"},
         "25": {"name": "巴哈姆特动漫疯","url": "https://ani.gamer.com.tw/","icon": "https://i2.bahamut.com.tw/anime/baha_s.png","explain": "知名台湾动漫平台，需魔法上网"},
         "26": {"name": "饭团ACG","url": "https://acgfantuan.com/","icon": "https://acgfantuan.com/media/website/ft-icon-v1.png","explain": "番剧在线观看干净"},
-        "27": {"name": "樱花动漫","url": "http://www.dm88.me/","icon": "http://sakurajs.xonlines.com/statics/img/favicon.ico","explain": "老口碑动漫站"},
+        "27": {"name": "樱花动漫","url": "http://www.dm88.me/","icon": "./base/url/nan.png","explain": "老口碑动漫站"},
         "28": {"name": "E-ACG","url": "https://eacg.net/","icon": "https://k8dm.com/template/vfed/asset/img/favicon.png","explain": "番剧在线观看"},
         "29": {"name": "风车动漫","url": "http://www.dmlaa.com/","icon": "https://cdn.cnrjsd.com/statics/img/favicon.ico","explain": "番剧在线观看"},
         "12": {"name": "哈哩哈哩","url": "http://hali520.com","icon": "./base/url/nan.png","explain": "兴趣使然的看番小站"}
@@ -88,10 +88,10 @@
         "12": {"name": "二次元动漫","url": "https://www.2animx.com/","icon": "https://www.2animx.com/favicon.ico","explain": "漫画在线看"},
         "13": {"name": "动漫屋","url": "https://www.dm5.com/","icon": "https://css99tel.cdndm5.com/v202208091111/dm5/images/dm5.ico","explain": "漫画在线看"},
         "14": {"name": "Mangabz","url": "https://www.colamanhua.com/","icon": "./base/url/nan.png","explain": "漫画在线看"},
-        "15": {"name": "Vomic","url": "http://www.iewoai.com/","icon": "http://www.iewoai.com/static/images/logo/favicon_white_50.png","explain": "漫画在线看"},
+        "15": {"name": "Vomic","url": "http://www.iewoai.com/","icon": "./base/url/nan.png","explain": "漫画在线看"},
         "16": {"name": "Xmanhua","url": "https://www.mangabz.com/","icon": "./base/url/nan.png","explain": "漫画在线看"},
         "17": {"name": "哔哩哔哩漫画","url": "https://xmanhua.com/","icon": "./base/url/nan.png","explain": "漫画在线看"},
-        "18": {"name": "国漫吧","url": "http://www.guoman8.cc/","icon": "http://www.guomanba.cc/favicon.ico","explain": "漫画在线看"},
+        "18": {"name": "国漫吧","url": "http://www.guoman8.cc/","icon": "./base/url/nan.png","explain": "漫画在线看"},
         "3": {"name": "MissEvan","url": "https://www.missevan.com","icon": "./base/url/www.missevan.com.png","explain": "有声轻小说，声优聚集地"}
     },
     "Download": {
