@@ -2,7 +2,7 @@
     "Animation": {
         "1": {"name": "AGE动漫","url": "https://www.agemys.net","icon": "./base/url/www.agemys.com.png","explain": "每日推荐100部番 备用www.age.tv"},
         "2": {"name": "ebb","url": "https://ebb.io","icon": "./base/url/ebb.io.png","explain": "新番連載 需要魔法上网和登录才能使用"},
-        "3": {"name": "異世界動漫","url": "http://www.ysjdm.net","icon": "./base/url/www.ysjdm.net.png","explain": "新番推送最快"},
+        "3": {"name": "異世界動漫","url": "http://www.ysjdm.net","icon": "./base/url/www.ysjdm.net.png","explain": "新番推送最快，备用www.sbdm.net"},
         "4": {"name": "哔咪动漫","url": "http://www.bimiacg4.net","icon": "./base/url/www.bimiacg4.net.png","explain": "兴趣使然的无名小站"},
         "5": {"name": "AcFun","url": "https://www.acfun.cn","icon": "./base/url/www.acfun.cn.png","explain": "认真你就输啦！"},
         "6": {"name": "bilibili","url": "https://www.bilibili.com","icon": "./base/url/www.bilibili.com.png","explain": "bilibili乾杯🍻"},
@@ -18,7 +18,16 @@
         "14": {"name": "pilipili","url": "http://pilipili.cm","icon": "./base/url/nan.png","explain": "我们的二次元异世界！"},
         "15": {"name": "EDD动漫","url": "http://www.edddh1.com","icon": "./base/url/www.edddh1.com.png","explain": "边看番边聊天"},
         "16": {"name": "AGE 动漫","url": "http://www.agedm.net","icon": "./base/url/www.agedm.net.png","explain": "兴趣使然的看番小站"},
-        "17": {"name": "HentaiAnimeZone","url": "https://hentaianimezone.com","icon": "./base/url/hentaianimezone.com.png","explain": "工口，R18，里番"},
+        "17": {"name": "HentaiAnime","url": "https://hentaianimezone.com","icon": "./base/url/hentaianimezone.com.png","explain": "工口，R18，里番"},
+        "21": {"name": "H次元","url": "https://h-ciyuan.com/","icon": "https://8mg050.n3cdn1.secureserver.net/wp-content/uploads/2021/02/cropped-unnamed-file-192x192.jpg","explain": "工口，R18，里番"},
+        "22": {"name": "Hanime","url": "https://hanime1.me/","icon": "./base/url/nan.png","explain": "工口，R18，里番"},
+        "23": {"name": "Muchohentai","url": "https://muchohentai.com/","icon": "./base/url/nan.png","explain": "工口，R18，里番"},
+        "24": {"name": "OmoFun动漫","url": "https://omofun.tv/","icon": "https://tva1.sinaimg.cn/mw2000/008kgqGagy1h6q8jddhb8j331d31d1kx.jpg","explain": "仅提供软件观看"},
+        "25": {"name": "巴哈姆特动漫疯","url": "https://ani.gamer.com.tw/","icon": "https://i2.bahamut.com.tw/anime/baha_s.png","explain": "知名台湾动漫平台，需魔法上网"},
+        "26": {"name": "饭团ACG","url": "https://acgfantuan.com/","icon": "https://acgfantuan.com/media/website/ft-icon-v1.png","explain": "番剧在线观看干净"},
+        "27": {"name": "樱花动漫","url": "http://www.dm88.me/","icon": "http://sakurajs.xonlines.com/statics/img/favicon.ico","explain": "老口碑动漫站"},
+        "28": {"name": "E-ACG","url": "https://eacg.net/","icon": "https://k8dm.com/template/vfed/asset/img/favicon.png","explain": "番剧在线观看"},
+        "29": {"name": "风车动漫","url": "http://www.dmlaa.com/","icon": "https://cdn.cnrjsd.com/statics/img/favicon.ico","explain": "番剧在线观看"},
         "12": {"name": "哈哩哈哩","url": "http://hali520.com","icon": "./base/url/nan.png","explain": "兴趣使然的看番小站"}
     },
     "SearchEngines": {
@@ -39,7 +48,8 @@
         "3": {"name": "观测枢","url": "https://webstatic.mihoyo.com/ys/app/interactive-map/","icon": "./base/url/webstatic.mihoyo.com.ys.app.interactive-map.png","explain": "提瓦特大地图工具"},
         "6": {"name": "Images Tool","url": "https://imagestool.com/webp2jpg-online/","icon": "./base/url/imagestool.com.png","explain": "多功能图片转换器"},
         "8": {"name": "颜文字屋さん","url": "http://kaomojiya.com/","icon": "http://kaomojiya.com/favicon.ico","explain": "顔文字一覧"},
-        "8": {"name": "NovelAI魔导书","url": "https://thereisnospon.github.io/NovelAiTag/","icon": "./base/url/nan.png","explain": "用于NovelAI作画生成TAG"},
+        "9": {"name": "NovelAI魔导书","url": "https://thereisnospon.github.io/NovelAiTag/","icon": "./base/url/nan.png","explain": "用于NovelAI作画生成TAG"},
+        "10": {"name": "PixEz","url": "https://notsfsssf.github.io/Pix-EzViewer/","icon": "https://notsfsssf.github.io/Pix-EzViewer/static/media/icon.c575ee58.png","explain": "免代理直连的Pixiv安卓客户端"},
         "7": {"name": "Waifu Labs","url": "https://waifulabs.com/","icon": "./base/url/waifulabs.com.png","explain": "AI二次元头像生成"}
     },
     "Illustration~HBook": {
@@ -53,20 +63,35 @@
         "8": {"name": "Wallpaper Abyss","url": "https://wall.alphacoders.com","icon": "./base/url/wall.alphacoders.com.png","explain": "Wallpaper Search"},
         "9": {"name": "zerochan","url": "https://www.zerochan.net","icon": "./base/url/nan.png","explain": "外国同人插画收录站"},
         "10": {"name": "摸鱼mooyuu","url": "https://www.mooyuu.com","icon": "./base/url/www.mooyuu.com.png","explain": "国内插画分享社区"},
-        "11": {"name": "Danbooru","url": "https://danbooru.donmai.us","icon": "./base/url/danbooru.donmai.us.png","explain": "同人插画收录站"},
+        "17": {"name": "Danbooru","url": "https://danbooru.donmai.us","icon": "./base/url/danbooru.donmai.us.png","explain": "采集收录站"},
+        "18": {"name": "Illusioncards","url": "https://illusioncards.booru.org/","icon": "./base/url/nan.png","explain": "采集收录站"},
+        "19": {"name": "Safebooru","url": "https://safebooru.org/","icon": "https://safebooru.org/favicon.ico","explain": "采集收录站"},
+        "20": {"name": "Tbib","url": "https://tbib.org/","icon": "./base/url/nan.png","explain": "采集收录站"},
         "12": {"name": "nhentai","url": "https://nhentai.net","icon": "./base/url/nhentai.net.svg","explain": "本子社区，收录超全"},
-        "14": {"name": "Gelbooru","url": "https://gelbooru.com/","icon": "https://gelbooru.com/favicon.png","explain": "收录各大画师的作品"},
-        "13": {"name": "株式会社Live2D","url": "https://www.live2d.jp/","icon": "./base/url/www.live2d.jp.png","explain": "日本Live2D制作公司"}
+        "16": {"name": "Gelbooru","url": "https://gelbooru.com/","icon": "https://gelbooru.com/favicon.png","explain": "采集收录站"},
+        "13": {"name": "Yande","url": "https://yande.re/post","icon": "https://yande.re/favicon.ico","explain": "采集收录站"},
+        "14": {"name": "Konachan","url": "https://konachan.com/post","icon": "https://konachan.com/favicon.ico","explain": "采集收录站"},
+        "15": {"name": "Sankaku","url": "https://chan.sankakucomplex.com/cn/","icon": "https://chan.sankakucomplex.com/favicon.png","explain": "采集收录站"},
+        "11": {"name": "株式会社Live2D","url": "https://www.live2d.jp/","icon": "./base/url/www.live2d.jp.png","explain": "日本Live2D制作公司"}
     },
-    "Music & Novel": {
+    "Music & Novel & Manga": {
         "1": {"name": "Bui~","url": "https://biu.moe","icon": "./base/url/biu.moe.png","explain": "收录下载超高质量ACG音乐"},
         "2": {"name": "BeatStage","url": "https://www.beatstage.com","icon": "./base/url/www.beatstage.com.png","explain": "国内第一个开放式网页音游"},
         "4": {"name": "OSU!","url": "https://osu.ppy.sh","icon": "./base/url/osu.ppy.sh.png","explain": "osu!节奏跃然指上！"},
         "5": {"name": "轻之国度","url": "https://www.lightnovel.us/","icon": "./base/url/www.lightnovel.us.png","explain": "专注分享的轻小说社群"},
         "7": {"name": "哔哩轻小说","url": "https://www.linovelib.com/","icon": "./base/url/www.linovelib.com.png","explain": "轻小说在线阅读"},
         "8": {"name": "百合会","url": "https://www.yamibo.com","icon": "./base/url/www.yamibo.com.png","explain": "轻小说漫画在线阅读"},
-        "9": {"name": "不可能文学","url": "https://wenxue.bkneng.com/","icon": "./base/url/wenxue.bkneng.com.png","explain": "网文在线阅读"},
         "6": {"name": "轻之文库","url": "https://www.linovel.net/","icon": "./base/url/www.linovel.net.png","explain": "轻小说漫画在线阅读"},
+        "9": {"name": "不可能文学","url": "https://wenxue.bkneng.com/","icon": "./base/url/wenxue.bkneng.com.png","explain": "网文在线阅读"},
+        "10": {"name": "哔哩哔哩漫画","url": "https://manga.bilibili.com/","icon": "./base/url/www.bilibili.com.png","explain": "高质量&高热度漫画"},
+        "11": {"name": "动漫之家","url": "http://manhua.dmzj.com/","icon": "./base/url/nan.png","explain": "又称大妈之家，漫画资源全"},
+        "12": {"name": "二次元动漫","url": "https://www.2animx.com/","icon": "https://www.2animx.com/favicon.ico","explain": "漫画在线看"},
+        "13": {"name": "动漫屋","url": "https://www.dm5.com/","icon": "https://css99tel.cdndm5.com/v202208091111/dm5/images/dm5.ico","explain": "漫画在线看"},
+        "14": {"name": "Mangabz","url": "https://www.colamanhua.com/","icon": "./base/url/nan.png","explain": "漫画在线看"},
+        "15": {"name": "Vomic","url": "http://www.iewoai.com/","icon": "http://www.iewoai.com/static/images/logo/favicon_white_50.png","explain": "漫画在线看"},
+        "16": {"name": "Xmanhua","url": "https://www.mangabz.com/","icon": "./base/url/nan.png","explain": "漫画在线看"},
+        "17": {"name": "哔哩哔哩漫画","url": "https://xmanhua.com/","icon": "./base/url/nan.png","explain": "漫画在线看"},
+        "18": {"name": "国漫吧","url": "http://www.guoman8.cc/","icon": "http://www.guomanba.cc/favicon.ico","explain": "漫画在线看"},
         "3": {"name": "MissEvan","url": "https://www.missevan.com","icon": "./base/url/www.missevan.com.png","explain": "有声轻小说，声优聚集地"}
     },
     "Download": {
@@ -98,7 +123,7 @@
         "5": {"name": "IMDB","url": "https://www.imdb.com","icon": "./base/url/www.imdb.com.png","explain": "互联网电影资料库"},
         "12": {"name": "AnimeNetWork","url": "https://www.animenewsnetwork.com","icon": "./base/url/nan.png","explain": "ACG-Wiki"},
         "8": {"name": "小鸡词典","url": "https://jikipedia.com/","icon": "./base/url/jikipedia.com.png","explain": "紧跟网络热梗，梗百科"},
-        "9": {"name": "zeroroku","url": "https://zeroroku.com","icon": "./base/url/zeroroku.com.png","explain": "致力于提供有价值的b站信息"},
+        "14": {"name": "zeroroku","url": "https://zeroroku.com","icon": "./base/url/zeroroku.com.png","explain": "致力于提供有价值的b站信息"},
         "13": {"name": "biliob233","url": "https://biliob233.github.io","icon": "./base/url/biliob233.github.io.png","explain": "Bilibili观察站"},
         "9": {"name": "H萌","url": "https://hmacg.cn/bangumi","icon": "./base/url/nan.png","explain": "动漫新番表 追番表"},
         "7": {"name": "维基百科","url": "https://www.wikipedia.org/","icon": "./base/url/www.wikipedia.org.png","explain": "wikipedia 自由的百科"},
@@ -126,6 +151,10 @@
         "3": {"name": "My galgame","url": "https://www.ttloli.com","icon": "./base/url/www.okloli.com.png","explain": "galgame攻略+汉化下载"},
         "4": {"name": "UPUPO","url": "https://www.upupuo.com","icon": "./base/url/www.upupuo.com.png","explain": "游戏资讯站"},
         "5": {"name": "Migu云游","url": "https://www.migufun.com/","icon": "https://www.migufun.com/migu.png","explain": "当个“云”玩家"},
+        "6": {"name": "Epic","url": "https://store.epicgames.com/zh-CN/","icon": "https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico","explain": "Epic官网"},
+        "7": {"name": "Steam","url": "https://store.steampowered.com/","icon": "https://store.steampowered.com/favicon.ico","explain": "Steam官网"},
+        "8": {"name": "Watt Toolkit","url": "https://steampp.net/","icon": "https://steampp.net/favicon.ico","explain": "原名Steam++ 挂卡、加速、插件工具"},
+        "9": {"name": "小黑盒","url": "https://xiaoheihe.cn/games/index","icon": "https://xiaoheihe.cn/public/logo.png","explain": "发现游戏，分享快乐"},
         "1": {"name": "NGA玩家社区","url": "https://bbs.nga.cn/","icon": "./base/url/bbs.nga.cn.png","explain": "最大的全游戏社区 精英玩家俱乐部"}
     },
     "生肉资源":{
