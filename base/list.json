@@ -22,12 +22,12 @@
         "21": {"name": "H次元","url": "https://h-ciyuan.com/","icon": "https://8mg050.n3cdn1.secureserver.net/wp-content/uploads/2021/02/cropped-unnamed-file-192x192.jpg","explain": "工口，R18，里番"},
         "22": {"name": "Hanime","url": "https://hanime1.me/","icon": "./base/url/nan.png","explain": "工口，R18，里番"},
         "23": {"name": "Muchohentai","url": "https://muchohentai.com/","icon": "./base/url/nan.png","explain": "工口，R18，里番"},
-        "24": {"name": "OmoFun动漫","url": "https://omofun.tv/","icon": "https://tva1.sinaimg.cn/mw2000/008kgqGagy1h6q8jddhb8j331d31d1kx.jpg","explain": "仅提供软件观看"},
+        "24": {"name": "OmoFun动漫","url": "https://omofun.tv/","icon": "./base/url/nan.png","explain": "仅提供软件观看"},
         "25": {"name": "巴哈姆特动漫疯","url": "https://ani.gamer.com.tw/","icon": "https://i2.bahamut.com.tw/anime/baha_s.png","explain": "知名台湾动漫平台，需魔法上网"},
         "26": {"name": "饭团ACG","url": "https://acgfantuan.com/","icon": "https://acgfantuan.com/media/website/ft-icon-v1.png","explain": "番剧在线观看干净"},
         "27": {"name": "樱花动漫","url": "http://www.dm88.me/","icon": "./base/url/nan.png","explain": "老口碑动漫站"},
         "28": {"name": "E-ACG","url": "https://eacg.net/","icon": "https://k8dm.com/template/vfed/asset/img/favicon.png","explain": "番剧在线观看"},
-        "29": {"name": "风车动漫","url": "http://www.dmlaa.com/","icon": "https://cdn.cnrjsd.com/statics/img/favicon.ico","explain": "番剧在线观看"},
+        "29": {"name": "风车动漫","url": "http://www.dmlaa.com/","icon": "./base/url/nan.png","explain": "番剧在线观看"},
         "12": {"name": "哈哩哈哩","url": "http://hali520.com","icon": "./base/url/nan.png","explain": "兴趣使然的看番小站"}
     },
     "SearchEngines": {
@@ -85,7 +85,7 @@
         "9": {"name": "不可能文学","url": "https://wenxue.bkneng.com/","icon": "./base/url/wenxue.bkneng.com.png","explain": "网文在线阅读"},
         "10": {"name": "哔哩哔哩漫画","url": "https://manga.bilibili.com/","icon": "./base/url/www.bilibili.com.png","explain": "高质量&高热度漫画"},
         "11": {"name": "动漫之家","url": "http://manhua.dmzj.com/","icon": "./base/url/nan.png","explain": "又称大妈之家，漫画资源全"},
-        "12": {"name": "二次元动漫","url": "https://www.2animx.com/","icon": "https://www.2animx.com/favicon.ico","explain": "漫画在线看"},
+        "12": {"name": "二次元动漫","url": "https://www.2animx.com/","icon": "./base/url/nan.png","explain": "漫画在线看"},
         "13": {"name": "动漫屋","url": "https://www.dm5.com/","icon": "https://css99tel.cdndm5.com/v202208091111/dm5/images/dm5.ico","explain": "漫画在线看"},
         "14": {"name": "Mangabz","url": "https://www.colamanhua.com/","icon": "./base/url/nan.png","explain": "漫画在线看"},
         "15": {"name": "Vomic","url": "http://www.iewoai.com/","icon": "./base/url/nan.png","explain": "漫画在线看"},
