@@ -49,7 +49,7 @@
         "6": {"name": "Images Tool","url": "https://imagestool.com/webp2jpg-online/","icon": "./base/url/imagestool.com.png","explain": "多功能图片转换器"},
         "8": {"name": "颜文字屋さん","url": "http://kaomojiya.com/","icon": "http://kaomojiya.com/favicon.ico","explain": "顔文字一覧"},
         "9": {"name": "NovelAI魔导书","url": "https://thereisnospon.github.io/NovelAiTag/","icon": "./base/url/nan.png","explain": "用于NovelAI作画生成TAG"},
-        "11": {"name": "Snapdrop","url": "http://snapdrop.cn/","icon": "http://snapdrop.cn/images/apple-touch-icon.png","explain": "文件P2P传输，此为国内镜像网站"},
+        "11": {"name": "Snapdrop","url": "http://snapdrop.cn/","icon": "https://drop.ioiox.com/images/apple-touch-icon.png","explain": "文件P2P传输，此为国内镜像网站"},
         "12": {"name": "LANDrop","url": "https://landrop.app/","icon": "https://landrop.app/img/LANDrop.svg","explain": "文件P2P传输，全平台支持"},
         "13": {"name": "Resilio","url": "https://www.resilio.com/individuals/","icon": "https://www.resilio.com/favicon.ico","explain": "文件P2P传输，全平台支持"},
         "10": {"name": "PixEz","url": "https://notsfsssf.github.io/Pix-EzViewer/","icon": "https://notsfsssf.github.io/Pix-EzViewer/static/media/icon.c575ee58.png","explain": "免代理直连的Pixiv安卓客户端"},
